@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Layout</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box;}
+
+        header {
+            background-color: black;
+            height: 80px;
+        }
+        nav {}
+        nav a {
+            text-decoration: none;
+            color: white;
+            float: left;
+            display: block;
+            width: 100px;
+            height: 100%;
+            padding: 10px 20px;
+            line-height: 60px;
+            text-align: center;
+        }
+
+        nav a:hover {
+            background-color: cornflowerblue;
+        }
+        section{
+            margin: 0 auto;
+            width: 1024px;
+            background-color: lightblue;
+            border: 1px solid black;
+            padding: 10px;
+            min-height: 200px;
+        }
+        footer{
+            background-color: lightgrey;
+            min-height: 88px;
+        }
+
+        footer .copy {
+            float: left;
+            line-height: 80px;
+            padding:  0 20px;
+        }
+
+        footer .family {
+            float: right;
+            line-height: 80px;
+            min-height: 120px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="http://www.naver.com">네이버</a>
+            <a href="http://www.kakao.com">카카오</a>
+            <a href="http://www.youtube.com">유튜브</a>
+        </nav>
+    </header>
+    <section>
+        <h1>My Page</h1>
+        <p>My Page에 오신걸 환영합니다~!</p>
+    </section>
+    <section>
+        <h1>2번째 섹션</h1>
+        <p>2번째 영역입니다~!</p>
+        <article>
+            구하지 용감하고 가진 인생의 피고, 황금시대다. 뭇 풍부하게 품고 청춘의 거선의 갑 얼음이 뜨거운지라, 우리의 위하여서. 얼마나 봄바람을 산야에 위하여 사랑의 대중을 이상의 피고, 교향악이다. 심장은 풀밭에 거친 일월과 고행을 인류의 천하를 철환하였는가? 황금시대를 보는 못하다 날카로우나 이상을 봄바람이다. 모래뿐일 낙원을 곧 봄바람이다. 갑 이것이야말로 역사를 생의 이상이 타오르고 반짝이는 광야에서 그들을 보라. 밥을 튼튼하며, 길을 풍부하게 간에 이 보라. 굳세게 이상은 방황하였으며, 피가 꽃이 봄바람이다.
+        </article>
+    </section>
+    <section>
+        <h1>3번째 섹션</h1>
+        <p>3번째 영역입니다~!</p>
+    </section>
+    <footer>
+        <p class="copy">Copyright ⓒ ALOHA CLASS. ALL Rights Reserved</p>
+        <p class="family">
+            <select name="family">
+                <option value="1">네이버</option>
+                <option value="2">카카오</option>
+                <option value="3">유튜브</option>
+            </select>
+        </p>
+    </footer>
+</body>
+</html>

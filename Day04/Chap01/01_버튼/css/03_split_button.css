@@ -1,0 +1,24 @@
+
+.btn {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 14px 20px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-arrow {
+    border-left: 1px solid white;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: block;
+}
